@@ -63,6 +63,7 @@ private:
 	static void ConZoomPlus(IConsole::IResult *pResult, void *pUserData);
 	static void ConZoomMinus(IConsole::IResult *pResult, void *pUserData);
 	static void ConZoom(IConsole::IResult *pResult, void *pUserData);
+	static void ConKeyZoom(IConsole::IResult *pResult, void *pUserData);
 	static void ConSetView(IConsole::IResult *pResult, void *pUserData);
 	static void ConSetViewRelative(IConsole::IResult *pResult, void *pUserData);
 	static void ConGotoSwitch(IConsole::IResult *pResult, void *pUserData);
